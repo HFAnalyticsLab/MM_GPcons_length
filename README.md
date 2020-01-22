@@ -33,18 +33,24 @@ These scripts are written in SAS Enterprise Guide Version 7.12  and in Stata/MP 
 ### Getting started
                                                                                                                             
 The SAS folder contains:  
-1. conslength_derive.sas  - Uses the consultation and staff files from CPRD to select eligible consultations. We limited the sample to non-administrative face-to-face consultations taking place at the GP practice with GPs, nurses or other clinicians. After cleaning the consultation length data, the file was merged with the clinical and patient files from CPRD. Finally, it was merged with data on [multiple conditions](https://github.com/HFAnalyticsLab/High_cost_users/blob/master/Scripts/05_multimorbidity.sas) 
+conslength_derive.sas  - Uses the consultation and staff files from CPRD to select eligible consultations. We limited the sample to non-administrative face-to-face consultations taking place at the GP practice with GPs, nurses or other clinicians. After cleaning the consultation length data, the file was merged with the clinical and patient files from CPRD. Finally, it was merged with data on [multiple conditions](https://github.com/HFAnalyticsLab/High_cost_users/blob/master/Scripts/05_multimorbidity.sas) 
                                                                                                                               
                                                                                                                             
 The Stata folder contains:   
-1. duration_MM_deprivation.do - Prepare variables for descriptive analysis and regression models
-2. 02_Two_part_regression_models.R - Combines logistic model for whether has a non-zero cost with a gamma distribution for cost where this is non-zero. Predicted values are estimated for each level of household multimorbidity. Confidence intervals are coming soon....
+duration_MM_deprivation.do - Prepare variables for descriptive analysis and regression models
                                                                                                                               
-                                                                                                                            
+## Useful references
+
+Mercer SW, Zhou Y, Humphris GM, McConnachie A, Bakhshi A, Bikker A, et al. Multimorbidity and Socioeconomic Deprivation in Primary Care Consultations. 2018;16(2):127-31.
+
+Stevens S, Bankhead C, Mukhtar T, Perera-Salazar R, Holt TA, Salisbury C, et al. Patient-level and practice-level factors associated with consultation duration: a cross-sectional analysis of over one million consultations in English primary care. BMJ Open. 2017;7(11):e018261.
+
+Cassell A, Edwards D, Harshfield A, Rhodes K, Brimicombe J, Payne R, et al. The epidemiology of multimorbidity in primary care: a retrospective cohort study. Br J Gen Pract. 2018;68(669):e245-e51.
+
 ## Authors - please feel free to get in touch
                                                                                                                             
-- Mai Stafford, PhD - [on github](https://github.com/maistafford) / [on twitter](https://twitter.com/stafford_xm)
-- Dr. Anya Gopfert
+- Mai Stafford - [on github](https://github.com/maistafford) / [on twitter](https://twitter.com/stafford_xm)
+- Anya Gopfert
                                                                                                                             
 ## License
 
