@@ -1,5 +1,5 @@
 
-# GP consultation length and deprivation for people with multiple conditions
+# GP consultation length by socioeconomic deprivation and multimorbidity status
 
 #### Status: In Progress
 
